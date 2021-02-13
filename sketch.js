@@ -29,7 +29,7 @@ function setup() {
 	mango1 = new Mango(700,100,30);
 	mango2 = new Mango(750,130,30);
 	mango3 = new Mango(900,140,30);
-	mango4 = new Mango(800,70,30);
+//	mango4 = new Mango(800,70,30);
 	mango5 = new Mango(750,70,30);
 	mango6 = new Mango(900,230,30);
 	mango7 = new Mango(700,230,40);
@@ -60,7 +60,7 @@ function draw() {
   mango1.display();
   mango2.display();
   mango3.display();
-  mango4.display();
+  //mango4.display();
   mango5.display();
   mango6.display();
   mango7.display();
@@ -74,7 +74,7 @@ function draw() {
   detectollision(stone,mango1);
   detectollision(stone,mango2);
   detectollision(stone,mango3);
-  detectollision(stone,mango4);
+ // detectollision(stone,mango4);
   detectollision(stone,mango5);
   detectollision(stone,mango6);
   detectollision(stone,mango7);
@@ -83,6 +83,7 @@ function draw() {
   detectollision(stone,mango10);
   detectollision(stone,mango11);
   detectollision(stone,mango12); 
+  detectollision(stone,mango13);
 
   stone.display();
 
